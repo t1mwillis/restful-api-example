@@ -1,0 +1,29 @@
+{
+  "name": "restful-api-example",
+  "version": "1.0.0",
+  "description": "Today we are going to build a full-stack API from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t1mwillis/restful-api-example.git"
+  },
+  "keywords": [],
+  "author": "Tim Willis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t1mwillis/restful-api-example/issues"
+  },
+  "homepage": "https://github.com/t1mwillis/restful-api-example#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4",
+    "morgan": "^1.9.1"
+  }
+}
